@@ -1,0 +1,113 @@
+.param{
+  background-color: hsl(63, 55%, 87%);
+  height: 50px;
+  text-decoration: solid;
+  font-size: 30px;
+  text-align: center;
+}
+body{
+  background-color: #c5aed0;
+}
+.footer{
+  background-color: hsl(63, 55%, 87%);
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  text-decoration: solid;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  
+}
+.App{
+  text-align: center;
+}
+.item{
+  display:flex;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.5rem;
+  margin: 0.25rem 0;
+  background-color: rgb(150, 138, 121);
+  max-width: 250px;
+  min-height: 18px;
+  border-radius: 0.3rem;
+  justify-content: center;
+}
+.item:first-child{
+  margin: 0;
+}
+.item input[type="checkbox"]{
+  text-align: center;
+  width:2.5rem;
+  width: 30px;
+  min-width: 30px;
+  height:1.5rem;
+  height: 48px;
+  min-height: 48px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  
+  
+}
+.item input[type="checkbox"]:focus+label{
+  text-decoration: underline;
+}
+
+.item > label {
+  flex-grow: 1;
+  font-size: large;
+  color: aquamarine;
+}
+
+
+.empty{
+  font-size:larger;
+  text-align: center;
+  color:brown;
+  border-radius: 0.5rem;
+}
+.addform{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0 0;
+  padding: 0 0.5rem 0.25rem;
+  border-bottom: 1px solid rgb(218, 38, 227);
+  
+  
+}
+.addform label{
+  position: absolute;
+  left: -99999px;
+
+}
+
+.addform input[type="text"]{
+  flex-grow: 1;
+  max-width: 180px;
+  min-height: 18px;
+  font-size: 1rem;
+  padding: 0.20rem;
+  border-radius: 0.5rem;
+  margin-right: 0.20rem;
+  outline: none;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+button{
+  height: 38px;
+  min-width: 18px;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+  font-size: 1rem;
+  background-color: aliceblue;
+  color: rgb(0, 255, 102);
+  cursor: pointer;
+  
+}
+.center{
+  justify-content: center;
+}
+
